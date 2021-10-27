@@ -1,0 +1,105 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width:380px;
+    height: 770px;
+    background-color: hsl(240, 100%, 96%);
+    border-radius: 30px;
+    box-shadow: 20px 20px 40px rgba(200, 213, 255, 0.4);
+    position: relative;
+    transform: scale(0.9);
+}
+.header{
+    margin-top: 40px;
+ img{
+    width:55px;
+    height: 55px;
+    border-radius: 5px;
+    box-shadow: 5px 7px 15px rgba(207, 207, 207, 0.4);
+}
+p{
+    margin-left: 10px;
+    margin-top: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    span{
+        font-size: 13px;
+        color:gray;
+    }
+}
+}
+
+.footer{
+    width:100%;
+    position: absolute;
+    bottom:0;
+    border-bottom-left-radius:30px ;
+    border-bottom-right-radius:30px ;
+    text-align: center;
+    background-color: hsl(240, 100%, 96%);
+
+i{
+    font-weight: bolder;
+    font-size: 25px;
+    color:rgb(121, 121, 121);
+}
+}
+
+.card-box{
+    position: relative;
+    span{
+        width:40px;
+        height:40px;
+        border-radius: 5px;
+        background-color: rgb(230, 226, 253);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        i{
+            font-size: 20px;
+        }
+    }
+    p{
+        margin-left: 10px;
+        font-weight: 500;
+        margin-top:4px;
+    }
+    .move{
+        position: absolute;
+        right:20px;
+        font-size:17px;
+    }
+}
+
+.fill{
+    justify-content: center;
+    align-items: center;
+    .fill-box{
+        background-color: rgba(180, 180, 255, 0.3);
+        border-radius: 10px;
+        i{
+            font-size: 30px;
+            color:rgb(130, 130, 252);
+        }
+        p{
+            font-size: 13px;
+            color:rgb(130, 130, 252);
+            margin-left: 5px;
+            font-weight: bolder;
+            margin-top: 10px;
+        }
+    }
+}
